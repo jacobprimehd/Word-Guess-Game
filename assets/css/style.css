@@ -1,0 +1,39 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.blockcenter{
+    position: relative;
+    bottom: 35vh;
+}
+.blockcenter h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 150%;
+}
+.rotate{
+    transform: rotate(-45deg);
+    position: relative;
+    text-align: center;
+    right: 33%;
+    bottom: -25vh;
+    color: antiquewhite;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+.rotate2{
+    transform: rotate(-45deg);
+    position: relative;
+    text-align: center;
+    right: 25%;
+    bottom: -10vh;
+    color: antiquewhite;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
